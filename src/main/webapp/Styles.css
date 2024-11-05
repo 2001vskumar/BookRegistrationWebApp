@@ -1,0 +1,21 @@
+body {
+    margin-top: 20px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.table {
+    margin-top: 20px;
+}
+.table td {
+    vertical-align: middle;
+}
+form input[type="text"], 
+form input[type="submit"], 
+form input[type="reset"] {
+    width: 100%;
+}
+.book-list-link {
+    margin-top: 10px;
+    display: inline-block;
+}
