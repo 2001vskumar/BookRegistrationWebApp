@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Book Registration Web App
 
 Overview
@@ -51,3 +52,6 @@ Utilize the search bar to find specific books quickly.
 
 Contribution
 Contributions to enhance functionality or improve code quality are welcome! Feel free to fork the repository and submit a pull request.
+=======
+# BookRegistrationWebApp
+>>>>>>> b27b342463b06758d2cb1ca5c529693cd7f39b28
