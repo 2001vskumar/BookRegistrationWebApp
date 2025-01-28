@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Registration</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css"> <!-- Link to your CSS file -->
 </head>
 <body class="container-fluid" style="max-width: 40rem;">
     <h2 class="bg-danger text-white text-center">Book Registration</h2>
-    <form id="bookForm">
+    <form id="bookForm" action="register" method="post">
         <table class="table table-hover">
             <tr>
                 <td><label for="bookName">Book Name</label></td>
@@ -28,9 +27,7 @@
                 <td><input type="reset" class="btn btn-secondary" value="Cancel"></td>
             </tr>
         </table>
-        <a class="book-list-link" href="bookList">View Book List</a>
+        <a class="btn btn-link" href="bookList">View Book List</a>
     </form>
-
-    <script src="js/script.js"></script> <!-- Link to your JavaScript file -->
 </body>
 </html>
